@@ -9,6 +9,7 @@ def display(X,Y,mas):
         for j in range(0,len(mas[i])):
             print(mas[i][j],end=' ')
         print()
+
 def main():
     X=int(input('ЧИСЛО СТРОК (X):'))
     Y=int(input('ЧИСЛО СТОЛБЦОВ (Y):'))
